@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/enroll_fan_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_fan"
+        android:textSize="@dimen/activity_vertical_gao"
+        android:background="@color/colorPrimaryDark"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/activity_vertical_xia_si"
+        android:text="@string/app_zhu"
+        android:textSize="@dimen/activity_vertical"/>
+    <EditText
+        android:id="@+id/enroll_zhang_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_vertical_zuo_shi"
+        android:layout_marginRight="@dimen/activity_vertical_you_shi"
+        android:layout_marginTop="@dimen/activity_vertical_xia_shi"
+        android:hint="@string/app_zhuang" />
+    <EditText
+        android:id="@+id/enroll_mi_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_vertical_zuo_shi"
+        android:layout_marginRight="@dimen/activity_vertical_you_shi"
+        android:layout_marginTop="@dimen/activity_vertical_xia_shi"
+        android:hint="@string/app_mi" />
+    <EditText
+        android:id="@+id/enroll_zaimi_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_vertical_zuo_shi"
+        android:layout_marginRight="@dimen/activity_vertical_you_shi"
+        android:layout_marginTop="@dimen/activity_vertical_xia_shi"
+        android:hint="@string/app_zaimi" />
+    <Button
+        android:id="@+id/enroll_que_btn_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_xia_shi"
+        android:text="@string/app_que"/>
+
+
+</LinearLayout>

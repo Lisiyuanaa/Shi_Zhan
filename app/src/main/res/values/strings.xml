@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Xiangmu_JiCheng</string>
+    <string name="app_zhuang">请输入账号</string>
+    <string name="app_mi">请输入密码</string>
+    <string name="app_zaimi">请再次输入密码</string>
+    <string name="app_deng">登录</string>
+    <string name="app_zhu">注册</string>
+    <string name="app_que">确定</string>
+    <string name="app_fan">返回</string>
 </resources>

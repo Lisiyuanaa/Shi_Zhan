@@ -15,7 +15,7 @@ import java.util.List;
  * Created by win7 on 2017/3/22.
  */
 
-public class MyAppliction extends Application{
+public class MyAppliction extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
@@ -29,7 +29,7 @@ public class MyAppliction extends Application{
 // 为了防止环信SDK被初始化2次，加此判断会保证SDK被初始化1次
 // 默认的APP会在以包名为默认的process name下运行，如果查到的process name不是APP的process name就立即返回
 
-        if (processAppName == null ||!processAppName.equalsIgnoreCase(appContext.getPackageName())) {
+        if (processAppName == null || !processAppName.equalsIgnoreCase(appContext.getPackageName())) {
             Log.e("TAG", "enter the service process!");
 
             // 则此application::onCreate 是被service 调用的，直接返回
@@ -41,6 +41,7 @@ public class MyAppliction extends Application{
         EMClient.getInstance().setDebugMode(true);
 
     }
+
     private String getAppName(int pID) {
         String processName = null;
         ActivityManager am = (ActivityManager) this.getSystemService(ACTIVITY_SERVICE);
